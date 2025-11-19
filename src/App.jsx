@@ -14,11 +14,6 @@ const App = () => {
 
   //  Charger les tâches depuis localStorage au démarrage
 
-  useEffect(() => {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
-  }, [tasks]);
-
-
 
   //  Sauvegarder les tâches à chaque modification
 
